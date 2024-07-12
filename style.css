@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(249, 243, 243);
+}
+
+header{
+    background-color:#FFFFFF;
+}
+ img{
+    margin:10px;
+    padding: 0;
+}
+
+h1{
+    font-size: large;
+}
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+.block1 {
+    background-color:#ffffff;
+}
+.block2{
+    background-image: url(./image2/bg-image1.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block2 div p{
+    display: flex;
+    margin:50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block3{
+    height:auto;
+    background-color: rgba(240, 155, 51, 0.201);
+
+}
+.block4{
+    width: 450px;
+    height:auto;
+    margin-bottom: 20px;
+
+}
+.block5{
+    background-color: black;
+    padding:10px;
+}
+.block5 .progress{
+    margin: 20px;
+    width:200px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+}
